@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="portfolio.css">
+    <div class="p-3 mb-2 bg-info text-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Profile </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="C:\Users\Home\Documents\yati\yati.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</div>
+    <title></title>
+  </head>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="clg.jpg" class="center" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="pacific.jpg" class="center" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      
+        
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <body>
+    <h1>About<hr></h1>
+    <div id="container"></div>
+    <h2>Yati Singh</h2>
+    <p>
+        <b>Qualifications:</b> Pursuing Bachelor of technology
+                            Completed Diploma in Computer Science and Engineering<br>
+        
+                            <b>D.O.B:</b>30 August 2001<br>
+                            <b>City:</b>Ghaziabad,Uttar Pradesh<br>
+                            <b>Phone:</b>8700028593<br>
+                            <b>Email:</b>singhyati53@gmail.com<br>
+
+    </p><br>
+
+    <h1>Skills<hr></h1>
+    <p id='para1'><h4>HTML-</h4>Intermediate<br>
+    <h4>CSS-</h4>Intermediate<br>
+    <h4>Javascript-</h4>Beginner<br>
+    </p><br>
+    <br>
+    <h1>Contact Form<hr></h1>
+    <div id="reg-form">
+    <form>
+    
+        <label for="first-name"><h4><centre>First Name</centre></h4></label>
+        <input type="text" name="first-name" placeholder="Enter your first name" required><br>
+        <label for="last-name"><h4>Last Name</h4></label>
+        <input type="text" name="last-name" placeholder="Enter your last name" required><br>
+        
+            <label for="gender"><h4>Gender</h4></label>
+            <label for="gender-male">
+           Male
+            </label>
+            <input type="radio" name="gender-choice" value="choice-1" >
+            <label for="gender-female">
+                Female
+            </label>
+            <input type="radio" name="gender-choice" value="choice-2">
+            <label for="gender-other">Other</label>
+            <input type="radio" name="gender-choice" value="choice-3"><br>
+        
+            <label for="email">
+                <h4>Email</h4>
+            </label> 
+            <input type="email" name="email" placeholder="xyz@gmail.com"><br>
+       
+            <label for="Month"><h4>Birthday</h4></label>
+            <select name="Month">
+                <option value="0" selected disabled>Month</option>
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+            </select><br>
+        
+      
+        <label for="agree">I agree to all the conditions of the form</label>
+        <input type="checkbox" name="agree">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
